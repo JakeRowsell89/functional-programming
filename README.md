@@ -16,7 +16,7 @@ If we are going to spend time looking at this "functional programming" thing, we
 It was tempting to include "fun" there, but YMMV. The way this is achieved is through a combination of some of the terminology we saw in the opening definition. The benefits of these individually tend to reinforce when used together. For example the combination of `determinism` and `being side-effect free` give us `pure functions`. These in turn allow us to cache the results of a function instead of calling it again.
 
 Some of the terminology we used, and will be looking at:
-- (Side) effects
+- (Side)effects
 - Mutable/immutable data
 - Pure functions
 - Shared state

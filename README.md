@@ -19,6 +19,8 @@ Some of the terminology we used, and will be looking at:
 - (Side)effects
 - Mutable/immutable data
 - Pure functions
-- Shared state
 - Declarative/imperative
 
+## Now what?
+
+Looking at the various topics discussed, you may find you already use some of them every day. 

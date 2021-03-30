@@ -34,6 +34,8 @@ readValue(obj) //
 obj // { val: 2 }, your object has been changed by this function. Imagine a library doing this!
 ```
 
+https://www.javascripttutorial.net/javascript-pass-by-value
+
 ## Why?
 
 # Predictability

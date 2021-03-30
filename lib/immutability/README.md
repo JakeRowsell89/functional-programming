@@ -36,6 +36,15 @@ obj // { val: 2 }, your object has been changed by this function. Imagine a libr
 
 https://www.javascripttutorial.net/javascript-pass-by-value
 
+### Destructive methods
+One way to describe wether something preserves the spirit of immutability even when the language does not enforce it is by saying something is or isn't destructive.
+
+As an example, the Array has `slice` and `splice` methods.
+const arr = [1,2,3]
+arr.slice(1) // [2,3]
+// arr is [1,2,3], slice is non-destructive
+arr.splice(1) // [2,3]
+// arr is [1], splice is destructive
 ## Why?
 
 # Predictability

@@ -15,12 +15,29 @@ If we are going to spend time looking at this "functional programming" thing, we
 
 It was tempting to include "fun" there, but YMMV. The way this is achieved is through a combination of some of the terminology we saw in the opening definition. The benefits of these individually tend to reinforce when used together. For example the combination of `determinism` and `being side-effect free` give us `pure functions`. These in turn allow us to cache the results of a function instead of calling it again.
 
-Some of the terminology we used, and will be looking at:
-- (Side)effects
-- Mutable/immutable data
+In the lib/folder you can find several specific topics related to functional programming. They should also contain an accompanying example in code. 
+
+Order of topics:
+- Immutability
+- Higher Order functions
+- Function Composition
+- Chaining
+- Partial Application
+- Side Effects
 - Pure functions
-- Declarative/imperative
+- Declarative code
+- Recursion
+
 
 ## Now what?
 
-Looking at the various topics discussed, you may find you already use some of them every day. 
+Looking at the various topics discussed, you may find you already use some of them every day. Most likely at least some of them will seem like a normal way to do things. Others may not. 
+
+My suggestion would be to take a look at those that you are not as familiar with and try to find ways to use them. You may also want to pick some Codewars/hackerrank problems and try to solve them bearing in mind some of the topics talked about.
+
+If you want to take it further I'd recommend trying to learn an FP language. The following resources are FREE and good:
+http://learnyouahaskell.com/chapters
+https://mostly-adequate.gitbook.io/mostly-adequate-guide/
+https://www.coursera.org/specializations/scala#courses (first 2 courses are free and about FP in Scala)
+
+Most importantly.. Just do it 🚀

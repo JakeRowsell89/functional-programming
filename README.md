@@ -24,7 +24,7 @@ Order of topics:
 - Chaining
 - Partial Application
 - Side Effects
-- Pure functions
+- Pure Functions
 - Declarative code
 - Recursion
 
